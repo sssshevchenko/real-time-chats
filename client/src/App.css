@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 400px;
+}
+
+.form {
+    border: 2px solid teal;
+    padding: 20px;
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin: 20px 0;
+    border: 1px solid teal
+}
+
+button {
+    color: teal;
+    background-color: transparent;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: teal;
+    color: white;
+}
+
+.message {
+    border: 2px solid teal;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.message_connection {
+    text-align: center;
+    margin-top: 10px;
+}
